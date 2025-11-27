@@ -473,7 +473,7 @@ function renderExtinguisherList(list) {
           : "status-warn";
 
       return `
-        <div class="history-item" onclick="selectExtinguisher('${e.id}')">
+        <div class="history-item">
           <div class="history-header" style="display:flex; align-items:center; gap:20px;">
             <span class="history-id">${e.id}</span>
             <span class="history-date">${e.type}</span>
